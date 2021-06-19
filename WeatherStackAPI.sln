@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStackAPI", "WeatherStackAPI\WeatherStackAPI.csproj", "{BCC62740-BF4F-4640-8677-5A55D51D438C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherStackUI", "WeatherStackAPI\WeatherStackUI.csproj", "{BCC62740-BF4F-4640-8677-5A55D51D438C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherStackLibrary", "QuestionLibrary\WeatherStackLibrary.csproj", "{892C372E-5D3A-4922-8A89-2E0EC9F14C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUnitTest", "SimpleUnitTest\SimpleUnitTest.csproj", "{95F20EBA-762F-4AFE-AF0D-EAF9EC10F161}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{BCC62740-BF4F-4640-8677-5A55D51D438C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCC62740-BF4F-4640-8677-5A55D51D438C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCC62740-BF4F-4640-8677-5A55D51D438C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892C372E-5D3A-4922-8A89-2E0EC9F14C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892C372E-5D3A-4922-8A89-2E0EC9F14C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892C372E-5D3A-4922-8A89-2E0EC9F14C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892C372E-5D3A-4922-8A89-2E0EC9F14C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F20EBA-762F-4AFE-AF0D-EAF9EC10F161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F20EBA-762F-4AFE-AF0D-EAF9EC10F161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F20EBA-762F-4AFE-AF0D-EAF9EC10F161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F20EBA-762F-4AFE-AF0D-EAF9EC10F161}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
