@@ -1,5 +1,5 @@
 # WeatherStackConsoleApp
 Coding Test Project made with .Net Core 3.1, Consumes WeatherStack API with accesskey
 
-Before using the project:
-Modify app.config -> appsettings[AccessKey] with the accesskey provided to you by WeatherStack https://weatherstack.com/. It's free.
+Implemented using SOLID principles, Added Unit Testing, Implemented some OWASP Top10.
+A1:2017-InjectionA3:2017-Sensitive Data ExposureA5:2017-Broken Access Control added validationA10:2017-Insufficient Logging & Monitoring
